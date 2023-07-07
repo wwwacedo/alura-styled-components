@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import Extrato from "../Extrato";
 import Titulo from "../Titulo";
 import Conta from "../Conta";
 
@@ -24,6 +24,7 @@ const Container = () => {
       <Titulo>Olá Fulano!</Titulo>
       <Conteudo>
         <Conta />
+		<Extrato />
       </Conteudo>
     </ContainerWrapper>
   );
