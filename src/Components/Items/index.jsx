@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 import Item from '../Item';
 import ImageFilter from '../ImageFilterAlternative';
-import { Icone } from '../UI';
+import { IconeTema } from '../UI';
 import { useEffect, useState } from 'react';
 
 const StyledItems = styled.div`
@@ -34,7 +34,7 @@ export default function Items(props) {
 
 	return (
 		<StyledItems>
-			<Icone src={icone} alt={props.type}/>
+			<IconeTema src={icone} alt={props.type}/>
 			<Item {...props}/>
 			<span>{props.date}</span>
 		</StyledItems>
